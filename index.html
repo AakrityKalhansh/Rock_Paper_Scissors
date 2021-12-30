@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RockPaperScissors</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://use.fontawesome.com/82cf2771b2.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>Rock Paper Scissors</h1>
+    </header>
+    <div class="score-board">
+      <div id="user-label" class="badge">User</div>
+      <div id="computer-label" class="badge">Computer</div>
+      <span id="user-score">0</span>:<span id="computer-score">0</span>
+    </div>
+
+    <div id="result">Score Verdict</div>
+
+    <div class="choices">
+     <div class="choice" id="r">
+      <i class="fa fa-hand-rock-o" aria-hidden="true" style="font-size: 100px; color: whitesmoke; border: 2px;"></i>
+    </div>
+      <div class="choice" id="p">
+       <i class="fa fa-hand-paper-o" aria-hidden="true" style="font-size: 100px; color: whitesmoke;"></i>
+      </div>
+        <div class="choice" id="s">
+         <i class="fa fa-hand-scissors-o" aria-hidden="true" style="font-size:100px; color: whitesmoke;"></i>
+        </div>
+    </div>
+    <p id="action-message">Make your move.</p>
+    <button id="reset">Reset</bu>
+    <script src="script.js" type="text/javascript"></script>
+  </body>
+</html>
